@@ -7,7 +7,9 @@
     "build": "tsc",
     "start": "node collector/dist/index.js",
     "collect": "npm run build && npm start",
-    "dev": "ts-node collector/src/index.ts"
+    "dev": "ts-node collector/src/index.ts",
+    "sitemap": "npm run build && node collector/dist/build-sitemap.js",
+    "sitemap:dev": "ts-node collector/src/build-sitemap.ts"
   },
   "keywords": [
     "playwright",

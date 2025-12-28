@@ -83,6 +83,18 @@ For faster iteration during development:
 npm run dev
 ```
 
+### 4. Build sitemap and routes
+
+After collecting pages, generate a sitemap and route patterns:
+
+```bash
+npm run sitemap
+```
+
+This creates:
+- `reference/sitemap.md` - Organized sitemap grouped by domain and path prefix
+- `reference/routes.json` - Unique route patterns with dynamic segment detection
+
 ## Output Structure
 
 The collector creates the following directory structure:
@@ -96,11 +108,15 @@ reference/
 │       └── example-com.png
 ├── html/
 │   └── example-com.html
-└── meta/
-    └── example-com.json
+├── meta/
+│   └── example-com.json
+├── sitemap.md           # Generated sitemap (run npm run sitemap)
+└── routes.json          # Generated route patterns (run npm run sitemap)
 ```
 
 ### Metadata JSON Format
+
+Each collected page has a metadata file:
 
 ```json
 {
@@ -112,6 +128,46 @@ reference/
   ]
 }
 ```
+
+### Sitemap Output (sitemap.md)
+
+Groups all collected URLs by domain and path prefix:
+
+```markdown
+# Site Map
+
+## example.com
+
+### /
+- [Example Domain](https://example.com)
+  `/`
+
+### /about
+- [About Us](https://example.com/about)
+  `/about`
+```
+
+### Routes Output (routes.json)
+
+Analyzes URL patterns and identifies dynamic segments:
+
+```json
+[
+  {
+    "pattern": "example.com/users/:id",
+    "examples": [
+      "https://example.com/users/123",
+      "https://example.com/users/456"
+    ],
+    "count": 2
+  }
+]
+```
+
+Dynamic segments detected:
+- `:id` - Numeric IDs
+- `:uuid` - UUID format (e.g., `550e8400-e29b-41d4-a716-446655440000`)
+- `:hash` - Hash strings (32+ hex characters)
 
 ## Configuration
 
@@ -137,6 +193,7 @@ biennale-clone-kit/
 │   ├── src/
 │   │   ├── index.ts          # Main entry point
 │   │   ├── collector.ts      # Core collection logic
+│   │   ├── build-sitemap.ts  # Sitemap and route generator
 │   │   ├── robots.ts         # robots.txt handling
 │   │   └── utils.ts          # Utility functions
 │   └── dist/                 # Compiled JavaScript (generated)
@@ -145,7 +202,9 @@ biennale-clone-kit/
 │   │   ├── desktop/
 │   │   └── mobile/
 │   ├── html/
-│   └── meta/
+│   ├── meta/
+│   ├── sitemap.md            # Generated sitemap
+│   └── routes.json           # Generated routes
 ├── urls.txt                  # Input URLs file
 ├── package.json
 ├── tsconfig.json
@@ -161,6 +220,8 @@ biennale-clone-kit/
 | `npm start` | Run the compiled collector |
 | `npm run collect` | Build and run (recommended) |
 | `npm run dev` | Run in development mode with ts-node |
+| `npm run sitemap` | Build sitemap.md and routes.json from metadata |
+| `npm run sitemap:dev` | Run sitemap builder in development mode |
 
 ## Troubleshooting
 
