@@ -1,0 +1,150 @@
+{
+  "hero": {
+    "title": "Munich Biennale 2025",
+    "subtitle": "Festival of New Music Theatre",
+    "dates": "May 15 - June 30, 2025",
+    "description": "Experience groundbreaking performances, opera, and contemporary arts from emerging and established artists across Munich's most prestigious venues.",
+    "image": "/images/hero-bg.jpg",
+    "cta": {
+      "primary": {
+        "label": "Explore Program",
+        "href": "/programm"
+      },
+      "secondary": {
+        "label": "Get Tickets",
+        "href": "/info/tickets"
+      }
+    }
+  },
+  "season": {
+    "year": "2025",
+    "theme": "Transformation & Renewal",
+    "description": "This year's festival explores themes of transformation, identity, and renewal through innovative productions by emerging and established artists from around the world. Join us for six weeks of extraordinary performances that push the boundaries of contemporary opera and musical theater."
+  },
+  "featured": [
+    {
+      "id": "1",
+      "slug": "orpheus-reloaded",
+      "title": "Orpheus Reloaded",
+      "composer": "Elena Martinez",
+      "director": "Thomas Weber",
+      "category": "World Premiere",
+      "venue": "Staatsoper",
+      "date": "2025-05-20",
+      "time": "19:30",
+      "image": "/images/events/orpheus.jpg",
+      "excerpt": "A contemporary reimagining of the Orpheus myth, blending electronic soundscapes with classical orchestration.",
+      "featured": true
+    },
+    {
+      "id": "2",
+      "slug": "voices-of-tomorrow",
+      "title": "Voices of Tomorrow",
+      "composer": "Collective Project",
+      "director": "Sarah Chen",
+      "category": "Installation",
+      "venue": "Muffathalle",
+      "date": "2025-05-25",
+      "time": "18:00",
+      "image": "/images/events/voices.jpg",
+      "excerpt": "An immersive installation exploring the future of vocal performance through technology and space.",
+      "featured": true
+    },
+    {
+      "id": "3",
+      "slug": "the-passenger",
+      "title": "The Passenger",
+      "composer": "Mieczysław Weinberg",
+      "director": "Anna Novikova",
+      "category": "Opera",
+      "venue": "Prinzregententheater",
+      "date": "2025-06-02",
+      "time": "20:00",
+      "image": "/images/events/passenger.jpg",
+      "excerpt": "Weinberg's powerful opera about memory, guilt, and reconciliation returns in a new production.",
+      "featured": true
+    }
+  ],
+  "program": {
+    "total": 24,
+    "categories": [
+      {
+        "name": "Opera",
+        "count": 8
+      },
+      {
+        "name": "Music Theatre",
+        "count": 10
+      },
+      {
+        "name": "Installation",
+        "count": 4
+      },
+      {
+        "name": "Workshop",
+        "count": 2
+      }
+    ]
+  },
+  "news": [
+    {
+      "id": "1",
+      "slug": "composer-workshop-announced",
+      "title": "Young Composer Workshop Announced",
+      "category": "Announcement",
+      "date": "2025-03-15",
+      "excerpt": "Join emerging composers for a two-week intensive workshop led by festival artists.",
+      "image": "/images/news/workshop.jpg"
+    },
+    {
+      "id": "2",
+      "slug": "festival-pass-on-sale",
+      "title": "Festival Passes Now Available",
+      "category": "Tickets",
+      "date": "2025-03-10",
+      "excerpt": "Secure your access to all festival productions with our exclusive festival pass.",
+      "image": "/images/news/tickets.jpg"
+    },
+    {
+      "id": "3",
+      "slug": "artist-spotlight-martinez",
+      "title": "Artist Spotlight: Elena Martinez",
+      "category": "Interview",
+      "date": "2025-03-05",
+      "excerpt": "Meet the composer behind this year's opening production, Orpheus Reloaded.",
+      "image": "/images/news/martinez.jpg"
+    }
+  ],
+  "venues": [
+    {
+      "name": "Staatsoper",
+      "productions": 6
+    },
+    {
+      "name": "Prinzregententheater",
+      "productions": 5
+    },
+    {
+      "name": "Muffathalle",
+      "productions": 8
+    },
+    {
+      "name": "Gasteig HP8",
+      "productions": 5
+    }
+  ],
+  "stats": {
+    "productions": 24,
+    "worldPremieres": 12,
+    "artists": 180,
+    "venues": 6
+  },
+  "about": {
+    "title": "About the Festival",
+    "description": "The Munich Biennale is a leading platform for contemporary opera and musical theater, commissioning and presenting world premieres and innovative interpretations of existing works. Founded in 1988, the festival has become an essential destination for artists, audiences, and industry professionals seeking to experience the future of opera and performance.",
+    "link": {
+      "label": "Learn More About Our History",
+      "href": "/festival"
+    }
+  }
+}
