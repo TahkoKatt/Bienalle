@@ -1,5 +1,7 @@
-# Biennale Clone Kit - Sample URLs
-# Add one URL per line. Lines starting with # are comments.
+# Munich Biennale - Pages to collect
+# Collecting key pages to understand structure and design
 
-https://example.com
-https://example.com/about
+https://www.muenchener-biennale.de/en
+https://www.muenchener-biennale.de/en/programm
+https://www.muenchener-biennale.de/en/info
+https://www.muenchener-biennale.de/en/festival
