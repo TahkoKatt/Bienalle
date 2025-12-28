@@ -1,0 +1,30 @@
+{
+  "name": "biennale-clone-kit",
+  "version": "1.0.0",
+  "description": "Web page collector using Playwright - captures screenshots, HTML, and metadata",
+  "main": "collector/dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node collector/dist/index.js",
+    "collect": "npm run build && npm start",
+    "dev": "ts-node collector/src/index.ts"
+  },
+  "keywords": [
+    "playwright",
+    "scraper",
+    "collector",
+    "screenshots"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.41.0",
+    "robots-parser": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/robots-parser": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

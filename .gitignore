@@ -1,0 +1,8 @@
+node_modules/
+collector/dist/
+*.log
+.DS_Store
+.env
+reference/screens/
+reference/html/
+reference/meta/
