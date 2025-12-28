@@ -24,7 +24,22 @@
       "director": "Marcus Weber",
       "excerpt": "A groundbreaking opera exploring the intersection of technology and human consciousness through immersive soundscapes and visual projections.",
       "premiere": true,
-      "duration": "90 min"
+      "duration": "90 min",
+      "slug": "the-vanishing-point",
+      "performers": ["Elena Sato (Soprano)", "James Morrison (Tenor)", "Ensemble Neue Horizonte"],
+      "schedule": [
+        { "date": "May 15, 2025", "time": "20:00" },
+        { "date": "May 16, 2025", "time": "20:00" },
+        { "date": "May 17, 2025", "time": "19:00" },
+        { "date": "May 18, 2025", "time": "19:00" }
+      ],
+      "ticketPrice": "€25-65",
+      "language": "English with German surtitles",
+      "body": {
+        "about": "In a near-future world where digital consciousness has become reality, 'The Vanishing Point' follows the journey of Ada, a neuroscientist who volunteers to have her consciousness uploaded to preserve her dying mind. What begins as a technological triumph transforms into a profound meditation on identity, memory, and the nature of human existence.\n\nComposer Sarah Chen's score seamlessly blends live orchestral elements with electronic processing, creating a sonic landscape that mirrors the opera's exploration of human-digital hybridity. Director Marcus Weber stages the work across multiple planes, with performers moving between physical and projected spaces, challenging our perceptions of presence and reality.\n\nThe libretto, written by Chen in collaboration with science fiction author Liu Cixin, draws from contemporary debates in neuroscience, artificial intelligence, and philosophy of mind. Yet at its core, this is an achingly human story about love, loss, and the desperate desire to transcend our mortal limitations.",
+        "production": "The production features a revolutionary staging system designed by media artist Ryoji Ikeda, utilizing real-time motion capture and generative visuals that respond to the performers' movements and vocal patterns. The result is a truly immersive environment where the boundaries between performer, space, and audience dissolve.\n\nCostume designer Iris van Herpen has created garments that incorporate fiber optics and responsive materials, allowing the performers' bodies to become living interfaces between the physical and digital realms. The visual language evolves throughout the opera, beginning with stark, minimalist designs and gradually accumulating layers of digital complexity.",
+        "creative": "This production marks the culmination of a three-year research collaboration between Munich Biennale, the Max Planck Institute for Brain Research, and the Ars Electronica Futurelab. The creative team held workshops with neuroscientists, AI researchers, and ethicists to ensure the work engages seriously with contemporary scientific and philosophical questions while maintaining its power as an emotional and theatrical experience."
+      }
     },
     {
       "id": "prod-002",
@@ -38,7 +53,22 @@
       "director": "Lisa Hartmann",
       "excerpt": "An experimental music theatre piece that challenges traditional narrative structures through fragmentary storytelling and electronic composition.",
       "premiere": false,
-      "duration": "75 min"
+      "duration": "75 min",
+      "slug": "echoes-of-silence",
+      "performers": ["Liminal Collective", "Anna Petrova (Voice)", "Thomas Klein (Electronics)"],
+      "schedule": [
+        { "date": "May 20, 2025", "time": "20:30" },
+        { "date": "May 21, 2025", "time": "20:30" },
+        { "date": "May 23, 2025", "time": "20:30" },
+        { "date": "May 24, 2025", "time": "19:00" }
+      ],
+      "ticketPrice": "€18-45",
+      "language": "Non-verbal with sonic text",
+      "body": {
+        "about": "'Echoes of Silence' exists in the liminal space between sound and silence, presence and absence. Composer Dmitri Volkov constructs the work from fragments—half-remembered melodies, interrupted phrases, sounds that seem to emerge from the edges of perception. The result is a haunting meditation on memory, loss, and the spaces between words where meaning accumulates.\n\nThe piece unfolds in seven interconnected sections, each exploring a different aspect of silence: the silence before speech, the silence of forgetting, the silence of waiting, the silence after. Volkov's score layers acoustic instruments with field recordings and electronic processing, creating dense sonic textures that shift between the intimate and the overwhelming.\n\nDirector Lisa Hartmann stages the work as a kind of ritual, with performers moving through carefully choreographed actions that suggest narrative without ever settling into conventional storytelling. The audience is invited to construct their own meanings from the fragments, to find their own echoes in the silences.",
+        "production": "The staging takes full advantage of the Rote Fabrik's industrial architecture, with sound sources distributed throughout the space in a multi-channel configuration. Audience members are free to move during the performance, discovering different sonic perspectives and engaging with the work as an immersive installation as much as a linear theatrical event.\n\nLighting designer Helena Waldmann has created a visual environment of shadows and half-light, where forms emerge and dissolve, mirroring the musical material's fragmentary nature. The aesthetic is deliberately sparse, focusing attention on small gestures and subtle transformations.",
+        "creative": "Originally commissioned by the Berlin Philharmonic for their experimental music series in 2023, this production has been reimagined for the intimate setting of the Rote Fabrik. Hartmann's staging emphasizes the work's theatrical potential, adding a layer of physical choreography and visual dramaturgy that complements Volkov's sonic architecture."
+      }
     },
     {
       "id": "prod-003",
@@ -52,7 +82,22 @@
       "director": "Yuki Tanaka",
       "excerpt": "A site-specific performance installation exploring fluid identities and transforming spaces through movement, sound, and interactive projections.",
       "premiere": true,
-      "duration": "60 min"
+      "duration": "60 min",
+      "slug": "liquid-architectures",
+      "performers": ["Yuki Tanaka (Concept & Direction)", "Dance Collective Flux", "Ensemble Neue Horizonte"],
+      "schedule": [
+        { "date": "May 22, 2025", "time": "18:00, 20:00" },
+        { "date": "May 23, 2025", "time": "18:00, 20:00" },
+        { "date": "May 24, 2025", "time": "18:00, 20:00" },
+        { "date": "May 25, 2025", "time": "17:00, 19:00" }
+      ],
+      "ticketPrice": "€20-50",
+      "language": "Non-verbal",
+      "body": {
+        "about": "'Liquid Architectures' transforms the Kulturzentrum into a living, breathing organism where architecture, body, and sound flow into one another. Japanese director Yuki Tanaka creates a site-specific work that responds directly to the unique spatial qualities of the venue, treating the building itself as both instrument and performer.\n\nThe piece is built around the concept of fluidity—the way identities, spaces, and sounds are never fixed but constantly transforming. Six dancers move through the space in relationship to a live musical score that itself responds to their movements through a sophisticated motion-capture system. The result is a feedback loop of sound, movement, and light in which cause and effect become impossible to distinguish.\n\nTanaka describes the work as 'choreographing architecture'—using the human body to reveal hidden geometries and possibilities within built space, while simultaneously allowing the architecture to shape and constrain movement in unexpected ways.",
+        "production": "The production utilizes a custom-designed interactive system developed by the ZKM Center for Art and Media. Sensors embedded throughout the performance space track dancers' movements, triggering real-time changes in the musical score, lighting, and projected imagery. The visual design by teamLab creates immersive projections that flow across walls, floors, and ceilings, dissolving the boundaries of the performance area.\n\nEach performance is unique, as the system's generative algorithms ensure that the exact relationships between movement, sound, and image are never repeated. Audience members are positioned within the performance space rather than separated from it, becoming part of the architectural ecology.",
+        "creative": "This work emerged from Tanaka's research into traditional Japanese concepts of ma (negative space) and the relationship between body and environment in Butoh dance. The collaboration with Ensemble Neue Horizonte adds a layer of Western experimental music practice, creating a true East-West dialogue that avoids simple fusion in favor of productive friction between different performance philosophies."
+      }
     },
     {
       "id": "prod-004",
