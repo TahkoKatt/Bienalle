@@ -9,9 +9,11 @@ A modern, accessible cultural festival website built with Next.js 15, TypeScript
 - **Tailwind CSS** for styling
 - **Design System** with CSS variables from SPEC.md
 - **Component Library** with Container, Grid, Typography helpers
+- **Enhanced Navigation** with sticky header, dropdowns, and mobile menu
 - **Responsive Design** mobile-first approach
 - **Accessibility** WCAG 2.1 AA compliant components
 - **SEO Optimized** with proper metadata
+- **Smooth Animations** for UI interactions
 
 ## Getting Started
 
@@ -54,18 +56,22 @@ biennale-clone/
 │   │   └── layout.tsx           # Root layout
 │   ├── components/
 │   │   ├── layout/
-│   │   │   ├── Header.tsx       # Site header with navigation
+│   │   │   ├── Header.tsx       # Sticky header with scroll effects
+│   │   │   ├── MobileMenu.tsx   # Animated mobile navigation
+│   │   │   ├── NavDropdown.tsx  # Desktop dropdown menus
+│   │   │   ├── LanguageSwitcher.tsx # Language selector
 │   │   │   └── Footer.tsx       # Site footer
 │   │   └── ui/
 │   │       ├── Container.tsx    # Max-width container
 │   │       ├── Grid.tsx         # Responsive grid
 │   │       └── Typography.tsx   # Heading and text components
 │   ├── lib/
-│   │   ├── routes.ts            # Route definitions
+│   │   ├── routes.ts            # Route definitions & helpers
 │   │   └── nav.ts               # Navigation configuration
 │   └── styles/
 │       └── globals.css          # Global styles + CSS variables
 ├── public/                      # Static assets
+├── HEADER_IMPLEMENTATION.md     # Header documentation
 ├── package.json
 ├── tsconfig.json
 ├── tailwind.config.ts
@@ -105,8 +111,13 @@ All design tokens are defined as CSS variables in `globals.css`:
 
 #### Layout Components
 
-- `Header` - Sticky header with navigation and language switcher
+- `Header` - Sticky header with scroll effects, navigation, and search
+- `MobileMenu` - Full-screen animated mobile navigation panel
+- `NavDropdown` - Desktop dropdown menu for nested navigation
+- `LanguageSwitcher` - Language selection dropdown (EN/DE)
 - `Footer` - Footer with links, newsletter, and copyright
+
+See [HEADER_IMPLEMENTATION.md](./HEADER_IMPLEMENTATION.md) for detailed header documentation.
 
 ## Navigation
 
