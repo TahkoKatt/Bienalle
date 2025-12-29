@@ -5,14 +5,15 @@ import { DetailHero, MetaInfo, Sidebar, BodyContent } from '@/components/detail'
 import programmData from '@/../../content/mock/programm.json';
 
 interface PageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
-export default function ProgrammDetailPage({ params }: PageProps) {
+export default async function ProgrammDetailPage({ params }: PageProps) {
   // Find production by slug
-  const production = programmData.productions.find((p) => p.slug === params.slug);
+  const { slug } = await params;
+  const production = programmData.productions.find((p) => p.slug === slug);
 
   if (!production) {
     notFound();

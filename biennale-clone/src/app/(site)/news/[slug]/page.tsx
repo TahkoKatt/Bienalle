@@ -5,14 +5,15 @@ import { DetailHero, MetaInfo, Sidebar, BodyContent } from '@/components/detail'
 import newsData from '@/../../content/mock/news.json';
 
 interface PageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
-export default function NewsDetailPage({ params }: PageProps) {
+export default async function NewsDetailPage({ params }: PageProps) {
   // Find article by slug
-  const article = newsData.articles.find((a) => a.slug === params.slug);
+  const { slug } = await params;
+  const article = newsData.articles.find((a) => a.slug === slug);
 
   if (!article) {
     notFound();
